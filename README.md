@@ -1,0 +1,2 @@
+# NSAttributedString
+CoreText NSAttributedString 零基础教程。针对NSAttributedString各个属性进行了逐一的介绍，开发者可以清晰地知道每一个属性到底是做什么的。
