@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ObliquenessViewController" customModule="NSAttributedString" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="Tbk-8o-KVu" id="0JA-H3-1kz"/>
+                <outlet property="labelTop" destination="LCU-d5-wGc" id="kaj-oS-RTD"/>
+                <outlet property="tableView" destination="xsW-dE-H5U" id="7H8-We-Tpm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbk-8o-KVu">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xsW-dE-H5U">
+                    <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xsW-dE-H5U" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="803-HE-U5M"/>
+                <constraint firstItem="xsW-dE-H5U" firstAttribute="height" secondItem="Tbk-8o-KVu" secondAttribute="height" id="8LD-dT-srL"/>
+                <constraint firstAttribute="bottom" secondItem="xsW-dE-H5U" secondAttribute="bottom" id="EpC-a8-Gt2"/>
+                <constraint firstAttribute="trailing" secondItem="xsW-dE-H5U" secondAttribute="trailing" id="EqE-Dr-XhU"/>
+                <constraint firstItem="Tbk-8o-KVu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LCU-d5-wGc"/>
+                <constraint firstAttribute="trailing" secondItem="Tbk-8o-KVu" secondAttribute="trailing" id="RSP-Gd-kw5"/>
+                <constraint firstItem="Tbk-8o-KVu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pYS-Pa-NrY"/>
+                <constraint firstItem="xsW-dE-H5U" firstAttribute="top" secondItem="Tbk-8o-KVu" secondAttribute="bottom" id="w5h-pU-BGJ"/>
+                <constraint firstItem="xsW-dE-H5U" firstAttribute="top" secondItem="Tbk-8o-KVu" secondAttribute="bottom" id="ytC-GV-t3H"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

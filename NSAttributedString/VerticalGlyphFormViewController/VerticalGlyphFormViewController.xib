@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VerticalGlyphFormViewController" customModule="NSAttributedString" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="mil-MH-H7T" id="KF4-xi-drL"/>
+                <outlet property="labelTop" destination="Qad-70-c0P" id="49s-tK-pTd"/>
+                <outlet property="tableView" destination="uOZ-Ss-iPf" id="qlC-75-VTp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mil-MH-H7T">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-Ss-iPf">
+                    <rect key="frame" x="0.0" y="222.5" width="375" height="444.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uOZ-Ss-iPf" firstAttribute="height" secondItem="mil-MH-H7T" secondAttribute="height" multiplier="2:1" id="JXJ-l0-ivz"/>
+                <constraint firstItem="mil-MH-H7T" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Qad-70-c0P"/>
+                <constraint firstItem="mil-MH-H7T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="W4b-PB-7dA"/>
+                <constraint firstAttribute="bottom" secondItem="uOZ-Ss-iPf" secondAttribute="bottom" id="XVD-gd-m9w"/>
+                <constraint firstAttribute="trailing" secondItem="uOZ-Ss-iPf" secondAttribute="trailing" id="aMQ-Hd-4pA"/>
+                <constraint firstItem="uOZ-Ss-iPf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dB2-aC-nke"/>
+                <constraint firstAttribute="trailing" secondItem="mil-MH-H7T" secondAttribute="trailing" id="kw8-XV-zXU"/>
+                <constraint firstItem="uOZ-Ss-iPf" firstAttribute="top" secondItem="mil-MH-H7T" secondAttribute="bottom" id="wFt-i5-fOR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

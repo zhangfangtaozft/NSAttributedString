@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShadowViewController" customModule="NSAttributedString" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="NrR-3j-n7r" id="X2e-JE-LnR"/>
+                <outlet property="labelTop" destination="iHr-FZ-gAn" id="3Ls-1b-dem"/>
+                <outlet property="tableView" destination="IQk-EF-Ugn" id="AY0-h7-jyH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrR-3j-n7r">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IQk-EF-Ugn">
+                    <rect key="frame" x="0.0" y="222.5" width="375" height="444.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NrR-3j-n7r" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5e2-Ru-LPa"/>
+                <constraint firstAttribute="bottom" secondItem="IQk-EF-Ugn" secondAttribute="bottom" id="AmI-i6-1IE"/>
+                <constraint firstItem="IQk-EF-Ugn" firstAttribute="height" secondItem="NrR-3j-n7r" secondAttribute="height" multiplier="2:1" id="Cuo-8P-6bG"/>
+                <constraint firstAttribute="trailing" secondItem="NrR-3j-n7r" secondAttribute="trailing" id="QLu-jz-iwI"/>
+                <constraint firstItem="IQk-EF-Ugn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Sko-0I-QEG"/>
+                <constraint firstItem="IQk-EF-Ugn" firstAttribute="top" secondItem="NrR-3j-n7r" secondAttribute="bottom" id="h4m-Me-hEl"/>
+                <constraint firstItem="NrR-3j-n7r" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="iHr-FZ-gAn"/>
+                <constraint firstAttribute="trailing" secondItem="IQk-EF-Ugn" secondAttribute="trailing" id="sdl-vv-sJz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

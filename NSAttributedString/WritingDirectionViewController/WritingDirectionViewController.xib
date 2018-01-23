@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WritingDirectionViewController" customModule="NSAttributedString" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="aFb-cL-TsL" id="6FP-zp-kjt"/>
+                <outlet property="labelTop" destination="voa-Es-ga8" id="Ipa-GX-LKE"/>
+                <outlet property="tableView" destination="B35-yn-QC1" id="ygf-MN-Dda"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFb-cL-TsL">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B35-yn-QC1">
+                    <rect key="frame" x="0.0" y="222.5" width="375" height="444.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aFb-cL-TsL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0uY-Ps-NYK"/>
+                <constraint firstItem="B35-yn-QC1" firstAttribute="top" secondItem="aFb-cL-TsL" secondAttribute="bottom" id="4Bn-jF-M8Q"/>
+                <constraint firstItem="B35-yn-QC1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7gu-rI-fdc"/>
+                <constraint firstItem="B35-yn-QC1" firstAttribute="height" secondItem="aFb-cL-TsL" secondAttribute="height" multiplier="2:1" id="EQE-3u-cUp"/>
+                <constraint firstAttribute="trailing" secondItem="B35-yn-QC1" secondAttribute="trailing" id="V8x-Eu-c9K"/>
+                <constraint firstAttribute="bottom" secondItem="B35-yn-QC1" secondAttribute="bottom" id="bxX-kq-3RE"/>
+                <constraint firstAttribute="trailing" secondItem="aFb-cL-TsL" secondAttribute="trailing" id="e1d-OB-rGb"/>
+                <constraint firstItem="aFb-cL-TsL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="voa-Es-ga8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

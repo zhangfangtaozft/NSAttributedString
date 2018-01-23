@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1DB616201706FC00EA1DEB /* ObliquenessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DB614201706FC00EA1DEB /* ObliquenessViewController.swift */; };
+		1E1DB617201706FC00EA1DEB /* ObliquenessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1DB615201706FC00EA1DEB /* ObliquenessViewController.xib */; };
+		1E1DB61A2017095D00EA1DEB /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DB6182017095D00EA1DEB /* ExpansionViewController.swift */; };
+		1E1DB61B2017095D00EA1DEB /* ExpansionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1DB6192017095D00EA1DEB /* ExpansionViewController.xib */; };
+		1E1DB61E20170D7600EA1DEB /* WritingDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DB61C20170D7600EA1DEB /* WritingDirectionViewController.swift */; };
+		1E1DB61F20170D7600EA1DEB /* WritingDirectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1DB61D20170D7600EA1DEB /* WritingDirectionViewController.xib */; };
+		1E1DB6222017210100EA1DEB /* VerticalGlyphFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DB6202017210100EA1DEB /* VerticalGlyphFormViewController.swift */; };
+		1E1DB6232017210100EA1DEB /* VerticalGlyphFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1DB6212017210100EA1DEB /* VerticalGlyphFormViewController.xib */; };
+		1E71461020157D5B00B3F440 /* TextEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71460E20157D5B00B3F440 /* TextEffectViewController.swift */; };
+		1E71461120157D5B00B3F440 /* TextEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E71460F20157D5B00B3F440 /* TextEffectViewController.xib */; };
+		1E7146142015B6AD00B3F440 /* AttachmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7146122015B6AD00B3F440 /* AttachmentViewController.swift */; };
+		1E7146152015B6AD00B3F440 /* AttachmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7146132015B6AD00B3F440 /* AttachmentViewController.xib */; };
+		1E7146182015CFCD00B3F440 /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7146162015CFCD00B3F440 /* LinkViewController.swift */; };
+		1E7146192015CFCD00B3F440 /* LinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7146172015CFCD00B3F440 /* LinkViewController.xib */; };
+		1E71461C2015DA3600B3F440 /* BaselineOffsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71461A2015DA3600B3F440 /* BaselineOffsetViewController.swift */; };
+		1E71461D2015DA3600B3F440 /* BaselineOffsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E71461B2015DA3600B3F440 /* BaselineOffsetViewController.xib */; };
+		1E7146202015DCE800B3F440 /* UnderlineColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71461E2015DCE800B3F440 /* UnderlineColorViewController.swift */; };
+		1E7146212015DCE800B3F440 /* UnderlineColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E71461F2015DCE800B3F440 /* UnderlineColorViewController.xib */; };
+		1E7146242015DE6D00B3F440 /* StrikethroughColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7146222015DE6D00B3F440 /* StrikethroughColorViewController.swift */; };
+		1E7146252015DE6D00B3F440 /* StrikethroughColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7146232015DE6D00B3F440 /* StrikethroughColorViewController.xib */; };
+		1EEF2788201192EE00FE6CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF2787201192EE00FE6CD4 /* AppDelegate.swift */; };
+		1EEF278F201192EE00FE6CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF278E201192EE00FE6CD4 /* Assets.xcassets */; };
+		1EEF2792201192EE00FE6CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF2790201192EE00FE6CD4 /* LaunchScreen.storyboard */; };
+		1EEF279B2011998F00FE6CD4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27992011998F00FE6CD4 /* MainViewController.swift */; };
+		1EEF279C2011998F00FE6CD4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF279A2011998F00FE6CD4 /* MainViewController.xib */; };
+		1EEF27A52011BA9700FE6CD4 /* BoldSystemFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27A32011BA9700FE6CD4 /* BoldSystemFontViewController.swift */; };
+		1EEF27A62011BA9700FE6CD4 /* BoldSystemFontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27A42011BA9700FE6CD4 /* BoldSystemFontViewController.xib */; };
+		1EEF27A82011BF6000FE6CD4 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27A72011BF6000FE6CD4 /* SuperViewController.swift */; };
+		1EEF27AB2011C16900FE6CD4 /* ParagraphStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27A92011C16900FE6CD4 /* ParagraphStyleViewController.swift */; };
+		1EEF27AC2011C16900FE6CD4 /* ParagraphStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27AA2011C16900FE6CD4 /* ParagraphStyleViewController.xib */; };
+		1EEF27AF2011D54100FE6CD4 /* ForegroundColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27AD2011D54100FE6CD4 /* ForegroundColorViewController.swift */; };
+		1EEF27B02011D54100FE6CD4 /* ForegroundColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27AE2011D54100FE6CD4 /* ForegroundColorViewController.xib */; };
+		1EEF27B32011D7C500FE6CD4 /* BackgroundColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27B12011D7C500FE6CD4 /* BackgroundColorViewController.swift */; };
+		1EEF27B42011D7C500FE6CD4 /* BackgroundColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27B22011D7C500FE6CD4 /* BackgroundColorViewController.xib */; };
+		1EEF27B72011D92E00FE6CD4 /* LigatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27B52011D92E00FE6CD4 /* LigatureViewController.swift */; };
+		1EEF27B82011D92E00FE6CD4 /* LigatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27B62011D92E00FE6CD4 /* LigatureViewController.xib */; };
+		1EEF27BB2011DD9000FE6CD4 /* KernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27B92011DD9000FE6CD4 /* KernViewController.swift */; };
+		1EEF27BC2011DD9000FE6CD4 /* KernViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27BA2011DD9000FE6CD4 /* KernViewController.xib */; };
+		1EEF27BF2011E07500FE6CD4 /* StrikethroughStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27BD2011E07500FE6CD4 /* StrikethroughStyleViewController.swift */; };
+		1EEF27C02011E07500FE6CD4 /* StrikethroughStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27BE2011E07500FE6CD4 /* StrikethroughStyleViewController.xib */; };
+		1EEF27C32011E26900FE6CD4 /* UnderlineStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27C12011E26900FE6CD4 /* UnderlineStyleViewController.swift */; };
+		1EEF27C42011E26900FE6CD4 /* UnderlineStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27C22011E26900FE6CD4 /* UnderlineStyleViewController.xib */; };
+		1EEF27C72011E3AD00FE6CD4 /* StrokeColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27C52011E3AD00FE6CD4 /* StrokeColorViewController.swift */; };
+		1EEF27C82011E3AD00FE6CD4 /* StrokeColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27C62011E3AD00FE6CD4 /* StrokeColorViewController.xib */; };
+		1EEF27CB2011E86900FE6CD4 /* StrokeWidthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27C92011E86900FE6CD4 /* StrokeWidthViewController.swift */; };
+		1EEF27CC2011E86900FE6CD4 /* StrokeWidthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27CA2011E86900FE6CD4 /* StrokeWidthViewController.xib */; };
+		1EEF27CF2011EA3600FE6CD4 /* ShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF27CD2011EA3600FE6CD4 /* ShadowViewController.swift */; };
+		1EEF27D02011EA3600FE6CD4 /* ShadowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEF27CE2011EA3600FE6CD4 /* ShadowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E1DB614201706FC00EA1DEB /* ObliquenessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObliquenessViewController.swift; sourceTree = "<group>"; };
+		1E1DB615201706FC00EA1DEB /* ObliquenessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObliquenessViewController.xib; sourceTree = "<group>"; };
+		1E1DB6182017095D00EA1DEB /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
+		1E1DB6192017095D00EA1DEB /* ExpansionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpansionViewController.xib; sourceTree = "<group>"; };
+		1E1DB61C20170D7600EA1DEB /* WritingDirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingDirectionViewController.swift; sourceTree = "<group>"; };
+		1E1DB61D20170D7600EA1DEB /* WritingDirectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WritingDirectionViewController.xib; sourceTree = "<group>"; };
+		1E1DB6202017210100EA1DEB /* VerticalGlyphFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGlyphFormViewController.swift; sourceTree = "<group>"; };
+		1E1DB6212017210100EA1DEB /* VerticalGlyphFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalGlyphFormViewController.xib; sourceTree = "<group>"; };
+		1E71460E20157D5B00B3F440 /* TextEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectViewController.swift; sourceTree = "<group>"; };
+		1E71460F20157D5B00B3F440 /* TextEffectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextEffectViewController.xib; sourceTree = "<group>"; };
+		1E7146122015B6AD00B3F440 /* AttachmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentViewController.swift; sourceTree = "<group>"; };
+		1E7146132015B6AD00B3F440 /* AttachmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttachmentViewController.xib; sourceTree = "<group>"; };
+		1E7146162015CFCD00B3F440 /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		1E7146172015CFCD00B3F440 /* LinkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LinkViewController.xib; sourceTree = "<group>"; };
+		1E71461A2015DA3600B3F440 /* BaselineOffsetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaselineOffsetViewController.swift; sourceTree = "<group>"; };
+		1E71461B2015DA3600B3F440 /* BaselineOffsetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaselineOffsetViewController.xib; sourceTree = "<group>"; };
+		1E71461E2015DCE800B3F440 /* UnderlineColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineColorViewController.swift; sourceTree = "<group>"; };
+		1E71461F2015DCE800B3F440 /* UnderlineColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnderlineColorViewController.xib; sourceTree = "<group>"; };
+		1E7146222015DE6D00B3F440 /* StrikethroughColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikethroughColorViewController.swift; sourceTree = "<group>"; };
+		1E7146232015DE6D00B3F440 /* StrikethroughColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrikethroughColorViewController.xib; sourceTree = "<group>"; };
+		1EEF2784201192EE00FE6CD4 /* NSAttributedString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSAttributedString.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEF2787201192EE00FE6CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EEF278E201192EE00FE6CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EEF2791201192EE00FE6CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EEF2793201192EE00FE6CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEF27992011998F00FE6CD4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1EEF279A2011998F00FE6CD4 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1EEF27A32011BA9700FE6CD4 /* BoldSystemFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldSystemFontViewController.swift; sourceTree = "<group>"; };
+		1EEF27A42011BA9700FE6CD4 /* BoldSystemFontViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoldSystemFontViewController.xib; sourceTree = "<group>"; };
+		1EEF27A72011BF6000FE6CD4 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		1EEF27A92011C16900FE6CD4 /* ParagraphStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphStyleViewController.swift; sourceTree = "<group>"; };
+		1EEF27AA2011C16900FE6CD4 /* ParagraphStyleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParagraphStyleViewController.xib; sourceTree = "<group>"; };
+		1EEF27AD2011D54100FE6CD4 /* ForegroundColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundColorViewController.swift; sourceTree = "<group>"; };
+		1EEF27AE2011D54100FE6CD4 /* ForegroundColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForegroundColorViewController.xib; sourceTree = "<group>"; };
+		1EEF27B12011D7C500FE6CD4 /* BackgroundColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorViewController.swift; sourceTree = "<group>"; };
+		1EEF27B22011D7C500FE6CD4 /* BackgroundColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackgroundColorViewController.xib; sourceTree = "<group>"; };
+		1EEF27B52011D92E00FE6CD4 /* LigatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigatureViewController.swift; sourceTree = "<group>"; };
+		1EEF27B62011D92E00FE6CD4 /* LigatureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LigatureViewController.xib; sourceTree = "<group>"; };
+		1EEF27B92011DD9000FE6CD4 /* KernViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernViewController.swift; sourceTree = "<group>"; };
+		1EEF27BA2011DD9000FE6CD4 /* KernViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KernViewController.xib; sourceTree = "<group>"; };
+		1EEF27BD2011E07500FE6CD4 /* StrikethroughStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikethroughStyleViewController.swift; sourceTree = "<group>"; };
+		1EEF27BE2011E07500FE6CD4 /* StrikethroughStyleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrikethroughStyleViewController.xib; sourceTree = "<group>"; };
+		1EEF27C12011E26900FE6CD4 /* UnderlineStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineStyleViewController.swift; sourceTree = "<group>"; };
+		1EEF27C22011E26900FE6CD4 /* UnderlineStyleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnderlineStyleViewController.xib; sourceTree = "<group>"; };
+		1EEF27C52011E3AD00FE6CD4 /* StrokeColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeColorViewController.swift; sourceTree = "<group>"; };
+		1EEF27C62011E3AD00FE6CD4 /* StrokeColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrokeColorViewController.xib; sourceTree = "<group>"; };
+		1EEF27C92011E86900FE6CD4 /* StrokeWidthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeWidthViewController.swift; sourceTree = "<group>"; };
+		1EEF27CA2011E86900FE6CD4 /* StrokeWidthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrokeWidthViewController.xib; sourceTree = "<group>"; };
+		1EEF27CD2011EA3600FE6CD4 /* ShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewController.swift; sourceTree = "<group>"; };
+		1EEF27CE2011EA3600FE6CD4 /* ShadowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShadowViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EEF2781201192EE00FE6CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1DB624201727D100EA1DEB /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27992011998F00FE6CD4 /* MainViewController.swift */,
+				1EEF279A2011998F00FE6CD4 /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB625201727E300EA1DEB /* BoldSystemFontViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27A32011BA9700FE6CD4 /* BoldSystemFontViewController.swift */,
+				1EEF27A42011BA9700FE6CD4 /* BoldSystemFontViewController.xib */,
+			);
+			path = BoldSystemFontViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB626201727F000EA1DEB /* ParagraphStyleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27A92011C16900FE6CD4 /* ParagraphStyleViewController.swift */,
+				1EEF27AA2011C16900FE6CD4 /* ParagraphStyleViewController.xib */,
+			);
+			path = ParagraphStyleViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB6272017281800EA1DEB /* ForegroundColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27AD2011D54100FE6CD4 /* ForegroundColorViewController.swift */,
+				1EEF27AE2011D54100FE6CD4 /* ForegroundColorViewController.xib */,
+			);
+			path = ForegroundColorViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB6282017282300EA1DEB /* BackgroundColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27B12011D7C500FE6CD4 /* BackgroundColorViewController.swift */,
+				1EEF27B22011D7C500FE6CD4 /* BackgroundColorViewController.xib */,
+			);
+			path = BackgroundColorViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB6292017282C00EA1DEB /* LigatureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27B52011D92E00FE6CD4 /* LigatureViewController.swift */,
+				1EEF27B62011D92E00FE6CD4 /* LigatureViewController.xib */,
+			);
+			path = LigatureViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB62A2017283700EA1DEB /* KernViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27B92011DD9000FE6CD4 /* KernViewController.swift */,
+				1EEF27BA2011DD9000FE6CD4 /* KernViewController.xib */,
+			);
+			path = KernViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB62B2017284200EA1DEB /* StrikethroughStyleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27BD2011E07500FE6CD4 /* StrikethroughStyleViewController.swift */,
+				1EEF27BE2011E07500FE6CD4 /* StrikethroughStyleViewController.xib */,
+			);
+			path = StrikethroughStyleViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB62C2017284D00EA1DEB /* UnderlineStyleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27C12011E26900FE6CD4 /* UnderlineStyleViewController.swift */,
+				1EEF27C22011E26900FE6CD4 /* UnderlineStyleViewController.xib */,
+			);
+			path = UnderlineStyleViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB62D2017285800EA1DEB /* StrokeColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27C52011E3AD00FE6CD4 /* StrokeColorViewController.swift */,
+				1EEF27C62011E3AD00FE6CD4 /* StrokeColorViewController.xib */,
+			);
+			path = StrokeColorViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB62E2017286100EA1DEB /* StrokeWidthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27C92011E86900FE6CD4 /* StrokeWidthViewController.swift */,
+				1EEF27CA2011E86900FE6CD4 /* StrokeWidthViewController.xib */,
+			);
+			path = StrokeWidthViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB62F2017286B00EA1DEB /* ShadowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF27CD2011EA3600FE6CD4 /* ShadowViewController.swift */,
+				1EEF27CE2011EA3600FE6CD4 /* ShadowViewController.xib */,
+			);
+			path = ShadowViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB6302017287600EA1DEB /* TextEffectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E71460E20157D5B00B3F440 /* TextEffectViewController.swift */,
+				1E71460F20157D5B00B3F440 /* TextEffectViewController.xib */,
+			);
+			path = TextEffectViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB6312017288100EA1DEB /* AttachmentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E7146122015B6AD00B3F440 /* AttachmentViewController.swift */,
+				1E7146132015B6AD00B3F440 /* AttachmentViewController.xib */,
+			);
+			path = AttachmentViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB6322017288B00EA1DEB /* LinkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E7146162015CFCD00B3F440 /* LinkViewController.swift */,
+				1E7146172015CFCD00B3F440 /* LinkViewController.xib */,
+			);
+			path = LinkViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB6332017289500EA1DEB /* BaselineOffsetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E71461A2015DA3600B3F440 /* BaselineOffsetViewController.swift */,
+				1E71461B2015DA3600B3F440 /* BaselineOffsetViewController.xib */,
+			);
+			path = BaselineOffsetViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB634201728A400EA1DEB /* UnderlineColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E71461E2015DCE800B3F440 /* UnderlineColorViewController.swift */,
+				1E71461F2015DCE800B3F440 /* UnderlineColorViewController.xib */,
+			);
+			path = UnderlineColorViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB635201728B000EA1DEB /* StrikethroughColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E7146222015DE6D00B3F440 /* StrikethroughColorViewController.swift */,
+				1E7146232015DE6D00B3F440 /* StrikethroughColorViewController.xib */,
+			);
+			path = StrikethroughColorViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB636201728BC00EA1DEB /* ObliquenessViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E1DB614201706FC00EA1DEB /* ObliquenessViewController.swift */,
+				1E1DB615201706FC00EA1DEB /* ObliquenessViewController.xib */,
+			);
+			path = ObliquenessViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB637201728C600EA1DEB /* ExpansionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E1DB6182017095D00EA1DEB /* ExpansionViewController.swift */,
+				1E1DB6192017095D00EA1DEB /* ExpansionViewController.xib */,
+			);
+			path = ExpansionViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB638201728D200EA1DEB /* WritingDirectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E1DB61C20170D7600EA1DEB /* WritingDirectionViewController.swift */,
+				1E1DB61D20170D7600EA1DEB /* WritingDirectionViewController.xib */,
+			);
+			path = WritingDirectionViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB639201728DC00EA1DEB /* VerticalGlyphFormViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E1DB6202017210100EA1DEB /* VerticalGlyphFormViewController.swift */,
+				1E1DB6212017210100EA1DEB /* VerticalGlyphFormViewController.xib */,
+			);
+			path = VerticalGlyphFormViewController;
+			sourceTree = "<group>";
+		};
+		1E1DB63A201728EA00EA1DEB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF2787201192EE00FE6CD4 /* AppDelegate.swift */,
+				1EEF27A72011BF6000FE6CD4 /* SuperViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1EEF277B201192EE00FE6CD4 = {
+			isa = PBXGroup;
+			children = (
+				1EEF2786201192EE00FE6CD4 /* NSAttributedString */,
+				1EEF2785201192EE00FE6CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EEF2785201192EE00FE6CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF2784201192EE00FE6CD4 /* NSAttributedString.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EEF2786201192EE00FE6CD4 /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				1E1DB63A201728EA00EA1DEB /* Other */,
+				1E1DB639201728DC00EA1DEB /* VerticalGlyphFormViewController */,
+				1E1DB638201728D200EA1DEB /* WritingDirectionViewController */,
+				1E1DB637201728C600EA1DEB /* ExpansionViewController */,
+				1E1DB636201728BC00EA1DEB /* ObliquenessViewController */,
+				1E1DB635201728B000EA1DEB /* StrikethroughColorViewController */,
+				1E1DB634201728A400EA1DEB /* UnderlineColorViewController */,
+				1E1DB6332017289500EA1DEB /* BaselineOffsetViewController */,
+				1E1DB6322017288B00EA1DEB /* LinkViewController */,
+				1E1DB6312017288100EA1DEB /* AttachmentViewController */,
+				1E1DB6302017287600EA1DEB /* TextEffectViewController */,
+				1E1DB62F2017286B00EA1DEB /* ShadowViewController */,
+				1E1DB62E2017286100EA1DEB /* StrokeWidthViewController */,
+				1E1DB62D2017285800EA1DEB /* StrokeColorViewController */,
+				1E1DB62C2017284D00EA1DEB /* UnderlineStyleViewController */,
+				1E1DB62B2017284200EA1DEB /* StrikethroughStyleViewController */,
+				1E1DB62A2017283700EA1DEB /* KernViewController */,
+				1E1DB6292017282C00EA1DEB /* LigatureViewController */,
+				1E1DB6282017282300EA1DEB /* BackgroundColorViewController */,
+				1E1DB6272017281800EA1DEB /* ForegroundColorViewController */,
+				1E1DB626201727F000EA1DEB /* ParagraphStyleViewController */,
+				1E1DB625201727E300EA1DEB /* BoldSystemFontViewController */,
+				1E1DB624201727D100EA1DEB /* MainViewController */,
+				1EEF278E201192EE00FE6CD4 /* Assets.xcassets */,
+				1EEF2790201192EE00FE6CD4 /* LaunchScreen.storyboard */,
+				1EEF2793201192EE00FE6CD4 /* Info.plist */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EEF2783201192EE00FE6CD4 /* NSAttributedString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEF2796201192EE00FE6CD4 /* Build configuration list for PBXNativeTarget "NSAttributedString" */;
+			buildPhases = (
+				1EEF2780201192EE00FE6CD4 /* Sources */,
+				1EEF2781201192EE00FE6CD4 /* Frameworks */,
+				1EEF2782201192EE00FE6CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSAttributedString;
+			productName = NSAttributedString;
+			productReference = 1EEF2784201192EE00FE6CD4 /* NSAttributedString.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EEF277C201192EE00FE6CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Frank.Zhang;
+				TargetAttributes = {
+					1EEF2783201192EE00FE6CD4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1EEF277F201192EE00FE6CD4 /* Build configuration list for PBXProject "NSAttributedString" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EEF277B201192EE00FE6CD4;
+			productRefGroup = 1EEF2785201192EE00FE6CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EEF2783201192EE00FE6CD4 /* NSAttributedString */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EEF2782201192EE00FE6CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1DB61B2017095D00EA1DEB /* ExpansionViewController.xib in Resources */,
+				1EEF27C82011E3AD00FE6CD4 /* StrokeColorViewController.xib in Resources */,
+				1E1DB61F20170D7600EA1DEB /* WritingDirectionViewController.xib in Resources */,
+				1EEF27C42011E26900FE6CD4 /* UnderlineStyleViewController.xib in Resources */,
+				1E7146252015DE6D00B3F440 /* StrikethroughColorViewController.xib in Resources */,
+				1E1DB617201706FC00EA1DEB /* ObliquenessViewController.xib in Resources */,
+				1E7146192015CFCD00B3F440 /* LinkViewController.xib in Resources */,
+				1EEF27D02011EA3600FE6CD4 /* ShadowViewController.xib in Resources */,
+				1EEF27C02011E07500FE6CD4 /* StrikethroughStyleViewController.xib in Resources */,
+				1EEF27AC2011C16900FE6CD4 /* ParagraphStyleViewController.xib in Resources */,
+				1E7146152015B6AD00B3F440 /* AttachmentViewController.xib in Resources */,
+				1E71461120157D5B00B3F440 /* TextEffectViewController.xib in Resources */,
+				1EEF2792201192EE00FE6CD4 /* LaunchScreen.storyboard in Resources */,
+				1E1DB6232017210100EA1DEB /* VerticalGlyphFormViewController.xib in Resources */,
+				1EEF278F201192EE00FE6CD4 /* Assets.xcassets in Resources */,
+				1EEF27A62011BA9700FE6CD4 /* BoldSystemFontViewController.xib in Resources */,
+				1E7146212015DCE800B3F440 /* UnderlineColorViewController.xib in Resources */,
+				1EEF27BC2011DD9000FE6CD4 /* KernViewController.xib in Resources */,
+				1EEF279C2011998F00FE6CD4 /* MainViewController.xib in Resources */,
+				1EEF27B02011D54100FE6CD4 /* ForegroundColorViewController.xib in Resources */,
+				1EEF27B42011D7C500FE6CD4 /* BackgroundColorViewController.xib in Resources */,
+				1EEF27B82011D92E00FE6CD4 /* LigatureViewController.xib in Resources */,
+				1E71461D2015DA3600B3F440 /* BaselineOffsetViewController.xib in Resources */,
+				1EEF27CC2011E86900FE6CD4 /* StrokeWidthViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EEF2780201192EE00FE6CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEF27BF2011E07500FE6CD4 /* StrikethroughStyleViewController.swift in Sources */,
+				1E7146142015B6AD00B3F440 /* AttachmentViewController.swift in Sources */,
+				1E7146242015DE6D00B3F440 /* StrikethroughColorViewController.swift in Sources */,
+				1EEF279B2011998F00FE6CD4 /* MainViewController.swift in Sources */,
+				1EEF2788201192EE00FE6CD4 /* AppDelegate.swift in Sources */,
+				1EEF27CB2011E86900FE6CD4 /* StrokeWidthViewController.swift in Sources */,
+				1E1DB616201706FC00EA1DEB /* ObliquenessViewController.swift in Sources */,
+				1EEF27B32011D7C500FE6CD4 /* BackgroundColorViewController.swift in Sources */,
+				1E7146182015CFCD00B3F440 /* LinkViewController.swift in Sources */,
+				1E71461020157D5B00B3F440 /* TextEffectViewController.swift in Sources */,
+				1EEF27C32011E26900FE6CD4 /* UnderlineStyleViewController.swift in Sources */,
+				1EEF27B72011D92E00FE6CD4 /* LigatureViewController.swift in Sources */,
+				1E71461C2015DA3600B3F440 /* BaselineOffsetViewController.swift in Sources */,
+				1EEF27A82011BF6000FE6CD4 /* SuperViewController.swift in Sources */,
+				1EEF27CF2011EA3600FE6CD4 /* ShadowViewController.swift in Sources */,
+				1EEF27AF2011D54100FE6CD4 /* ForegroundColorViewController.swift in Sources */,
+				1E1DB61E20170D7600EA1DEB /* WritingDirectionViewController.swift in Sources */,
+				1E1DB6222017210100EA1DEB /* VerticalGlyphFormViewController.swift in Sources */,
+				1EEF27C72011E3AD00FE6CD4 /* StrokeColorViewController.swift in Sources */,
+				1EEF27BB2011DD9000FE6CD4 /* KernViewController.swift in Sources */,
+				1E7146202015DCE800B3F440 /* UnderlineColorViewController.swift in Sources */,
+				1EEF27AB2011C16900FE6CD4 /* ParagraphStyleViewController.swift in Sources */,
+				1E1DB61A2017095D00EA1DEB /* ExpansionViewController.swift in Sources */,
+				1EEF27A52011BA9700FE6CD4 /* BoldSystemFontViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EEF2790201192EE00FE6CD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EEF2791201192EE00FE6CD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EEF2794201192EE00FE6CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EEF2795201192EE00FE6CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EEF2797201192EE00FE6CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BWWY5VW6C;
+				INFOPLIST_FILE = NSAttributedString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.Zhang.NSAttributedString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EEF2798201192EE00FE6CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BWWY5VW6C;
+				INFOPLIST_FILE = NSAttributedString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.Zhang.NSAttributedString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EEF277F201192EE00FE6CD4 /* Build configuration list for PBXProject "NSAttributedString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEF2794201192EE00FE6CD4 /* Debug */,
+				1EEF2795201192EE00FE6CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEF2796201192EE00FE6CD4 /* Build configuration list for PBXNativeTarget "NSAttributedString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEF2797201192EE00FE6CD4 /* Debug */,
+				1EEF2798201192EE00FE6CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EEF277C201192EE00FE6CD4 /* Project object */;
+}

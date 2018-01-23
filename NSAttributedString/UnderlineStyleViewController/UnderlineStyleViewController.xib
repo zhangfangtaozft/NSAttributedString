@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UnderlineStyleViewController" customModule="NSAttributedString" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="Vs5-Vu-38T" id="NFv-W7-yUr"/>
+                <outlet property="labelTop" destination="ZWB-bJ-A3W" id="YoT-Xo-zwe"/>
+                <outlet property="tableView" destination="ksF-pA-QON" id="EAA-kj-Mn8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vs5-Vu-38T">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ksF-pA-QON">
+                    <rect key="frame" x="0.0" y="222.5" width="375" height="444.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ksF-pA-QON" secondAttribute="bottom" id="CuO-Hi-9xo"/>
+                <constraint firstAttribute="trailing" secondItem="ksF-pA-QON" secondAttribute="trailing" id="SZU-qz-5Au"/>
+                <constraint firstItem="ksF-pA-QON" firstAttribute="top" secondItem="Vs5-Vu-38T" secondAttribute="bottom" id="UMy-x4-MwQ"/>
+                <constraint firstAttribute="trailing" secondItem="Vs5-Vu-38T" secondAttribute="trailing" id="XMR-0p-lj5"/>
+                <constraint firstItem="Vs5-Vu-38T" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZWB-bJ-A3W"/>
+                <constraint firstItem="ksF-pA-QON" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mVu-jM-aFz"/>
+                <constraint firstItem="ksF-pA-QON" firstAttribute="height" secondItem="Vs5-Vu-38T" secondAttribute="height" multiplier="2:1" id="vRc-Ng-IVY"/>
+                <constraint firstItem="Vs5-Vu-38T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zEU-DD-aRu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
